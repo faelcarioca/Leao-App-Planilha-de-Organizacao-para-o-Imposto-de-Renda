@@ -13,11 +13,16 @@ A ideia desta planilha é **centralizar e padronizar** informações pessoais e 
 A planilha tem três abas de preenchimento, organizadas como um fluxo guiado:
 
 - **1 · TITULAR**
-  Cadastro do contribuinte: nome, CPF, nascimento, título de eleitor, cônjuge, endereço, contatos e perguntas de triagem (houve alterações desde a última entrega? cônjuge dependente? reside no exterior?).
+Cadastro do contribuinte: nome, CPF, nascimento, título de eleitor, cônjuge, endereço, contatos e perguntas de triagem (houve alterações desde a última entrega? cônjuge dependente? reside no exterior?).
+<img alt="previa" src="https://github.com/jogaaivei/Leao-App-Planilha-de-Organizacao-para-o-Imposto-de-Renda/blob/main/images/titular.png" />
+
 - **2 · INFORMES**
-  Informes de rendimentos bancários: para cada banco, instituição (lista suspensa), valor atual e nome do arquivo anexo (PDF do informe). Calcula automaticamente o **total** de patrimônio informado.
+Informes de rendimentos bancários: para cada banco, instituição (lista suspensa), valor atual e nome do arquivo anexo (PDF do informe). Calcula automaticamente o **total** de patrimônio informado.
+<img alt="previa" src="https://github.com/jogaaivei/Leao-App-Planilha-de-Organizacao-para-o-Imposto-de-Renda/blob/main/images/informes.png" />
+
 - **3 · NOTAS**
-  Tabela de entradas mês a mês: data, categoria (Holerite, CNPJ ou Freelance) e valor, com filtros e linhas zebradas.
+Tabela de entradas mês a mês: data, categoria (Holerite, CNPJ ou Freelance) e valor, com filtros e linhas zebradas.
+<img alt="previa" src="https://github.com/jogaaivei/Leao-App-Planilha-de-Organizacao-para-o-Imposto-de-Renda/blob/main/images/notas.png" />
 
 ## ✨ Recursos de Excel utilizados
 
