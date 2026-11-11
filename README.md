@@ -1,14 +1,12 @@
 # 🦁 Leão App — Planilha de Organização para o Imposto de Renda
 
-Planilha em Excel que reúne, em um só lugar, as informações essenciais para preencher a **Declaração de Imposto de Renda de Pessoa Física (IRPF)**: dados do contribuinte, saldos em bancos e lançamento mensal de receitas.
-
-> Projeto de portfólio: demonstra como transformar uma planilha comum em uma pequena **aplicação** com navegação, validação de dados e interface própria, usando apenas recursos nativos do Excel (sem macros).
+Projeto de portfólio: demonstra como transformar uma planilha comum em uma pequena **aplicação** com navegação, validação de dados e interface própria, usando apenas recursos nativos do Excel (sem macros).
 
 ---
 
 ## 📌 O problema
 
-Na época da declaração, é comum precisar vasculhar e-mails, apps de banco e PDFs para juntar CPF, informes de rendimento, saldos e receitas do ano. A ideia desta planilha é **centralizar e padronizar** essas informações ao longo do ano, para que a declaração seja só consultar e copiar.
+A ideia desta planilha é **centralizar e padronizar** informações pessoais e financeiras como CPF, informes de rendimento, saldos e receitas ao longo do ano, para que a declaração seja só consultar e copiar.
 
 ## 🧭 Como funciona
 
@@ -24,7 +22,7 @@ A planilha tem três abas de preenchimento, organizadas como um fluxo guiado:
 
 - **Navegação por botões**: menu lateral com botões clicáveis (formas com hiperlinks internos) para alternar entre as abas, mais botão "Próximo". Funciona como uma interface de app.
 - **Validação de dados com listas suspensas**
-  - Lista de bancos com código e nome (ex.: `260 - Nubank`), alimentada por uma **aba oculta (`BANCOS`)** como base de dados.
+  - Lista de bancos com código e nome, alimentada por uma **aba oculta (`BANCOS`)** como base de dados.
   - Respostas `SIM`/`NÃO` nas perguntas de triagem.
   - Categorias de receita (`HOLERITE`, `CNPJ`, `FREELANCE`).
 - **Fórmulas**: `SOMA` consolidando os valores dos bancos no total de patrimônio.
@@ -35,7 +33,7 @@ A planilha tem três abas de preenchimento, organizadas como um fluxo guiado:
 
 ## 🚀 Como usar
 
-1. Baixe o arquivo `.xlsx` e abra no Excel (versão desktop recomendada, para os botões de navegação funcionarem).
+1. Baixe o arquivo `.xlsx` e abra no Excel (versão 2007 mais atual recomendada para fins de compatibilidade).
 2. Navegue pelo menu lateral e preencha as abas na ordem.
 3. Em **INFORMES**, escolha o banco na lista e anexe (referencie) o nome do PDF do informe.
 4. Em **NOTAS**, lance cada receita recebida no ano.
@@ -46,13 +44,6 @@ A planilha tem três abas de preenchimento, organizadas como um fluxo guiado:
 - Todos os dados presentes no arquivo são **fictícios**, apenas para demonstração.
 - A planilha é um **organizador pessoal**: não transmite nem calcula a declaração, e não substitui o programa oficial da Receita Federal nem orientação contábil.
 - Por conter dados pessoais, não compartilhe sua versão preenchida.
-
-## 🛠️ Possíveis evoluções
-
-- Total e subtotais por categoria na aba NOTAS (`SOMASE`).
-- Resumo/painel com gráficos de receitas por mês.
-- Abas para despesas dedutíveis (saúde, educação), bens e direitos, e dependentes.
-- Alertas de campos obrigatórios não preenchidos (formatação condicional).
 
 ## 👤 Autor
 
