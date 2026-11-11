@@ -14,7 +14,7 @@ A planilha tem três abas de preenchimento, organizadas como um fluxo guiado:
 
 - **1 · TITULAR**
 Cadastro do contribuinte: nome, CPF, nascimento, título de eleitor, cônjuge, endereço, contatos e perguntas de triagem (houve alterações desde a última entrega? cônjuge dependente? reside no exterior?).
-<img alt="previa" src="https://github.com/jogaaivei/Leao-App-Planilha-de-Organizacao-para-o-Imposto-de-Renda/blob/main/images/titular.png" />
+<img alt="previa" src="images/informes.png" />
 
 - **2 · INFORMES**
 Informes de rendimentos bancários: para cada banco, instituição (lista suspensa), valor atual e nome do arquivo anexo (PDF do informe). Calcula automaticamente o **total** de patrimônio informado.
