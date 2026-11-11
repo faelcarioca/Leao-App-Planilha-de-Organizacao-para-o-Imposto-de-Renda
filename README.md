@@ -12,11 +12,12 @@ A ideia desta planilha é **centralizar e padronizar** informações pessoais e 
 
 A planilha tem três abas de preenchimento, organizadas como um fluxo guiado:
 
-| Aba | O que faz |
-|---|---|
-| **1 · TITULAR** | Cadastro do contribuinte: nome, CPF, nascimento, título de eleitor, cônjuge, endereço, contatos e perguntas de triagem (houve alterações desde a última entrega? cônjuge dependente? reside no exterior?). |
-| **2 · INFORMES** | Informes de rendimentos bancários: para cada banco, instituição (lista suspensa), valor atual e nome do arquivo anexo (PDF do informe). Calcula automaticamente o **total** de patrimônio informado. |
-| **3 · NOTAS** | Tabela de entradas mês a mês: data, categoria (Holerite, CNPJ ou Freelance) e valor, com filtros e linhas zebradas. |
+- **1 · TITULAR**
+  Cadastro do contribuinte: nome, CPF, nascimento, título de eleitor, cônjuge, endereço, contatos e perguntas de triagem (houve alterações desde a última entrega? cônjuge dependente? reside no exterior?).
+- **2 · INFORMES**
+  Informes de rendimentos bancários: para cada banco, instituição (lista suspensa), valor atual e nome do arquivo anexo (PDF do informe). Calcula automaticamente o **total** de patrimônio informado.
+- **3 · NOTAS**
+  Tabela de entradas mês a mês: data, categoria (Holerite, CNPJ ou Freelance) e valor, com filtros e linhas zebradas.
 
 ## ✨ Recursos de Excel utilizados
 
